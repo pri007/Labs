@@ -1,0 +1,17 @@
+1.create table customer
+	(customerid number(5),
+cust_name varchar2(20),
+Address1 varchar2(30),
+Address2 varchar2(30)
+); 
+
+2.Alter table customer rename column cust_name to customername;
+	   
+Alter table customer modify customername  varchar2(30) Not Null;
+
+3.Alter table customer add Gender varchar2(1);
+Alter table customer add Age Number(3);
+Alter table customer add phoneNo(10);
+Rename customer to cust_table;
+
+4.
